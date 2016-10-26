@@ -23,3 +23,5 @@ setup(
         'https://pypi.python.org/simple/django/'
     ],
 )
+
+packages = ['rest_framework_swagger', 'rest_framework']

@@ -24,7 +24,7 @@ setup(
     ],
     install_requires=[
 #        "rest_framework_swagger",
-        "rest_framework",
+        "djangorestframework",
     ],
 )
 

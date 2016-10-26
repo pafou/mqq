@@ -23,7 +23,7 @@ setup(
         'https://pypi.python.org/simple/django/'
     ],
     install_requires=[
-        "rest_framework_swagger",
+#        "rest_framework_swagger",
         "rest_framework",
     ],
 )

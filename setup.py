@@ -22,6 +22,9 @@ setup(
     dependency_links=[
         'https://pypi.python.org/simple/django/'
     ],
-    packages = ['rest_framework_swagger', 'rest_framework']
+    install_requires=[
+        "rest_framework_swagger",
+        "rest_framework",
+    ],
 )
 

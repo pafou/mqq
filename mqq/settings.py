@@ -14,6 +14,7 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+#préconisé dans un article : BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
 # Quick-start development settings - unsuitable for production
@@ -110,3 +111,16 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAdminUser',),
     'PAGE_SIZE': 10
 }
+
+#--
+
+TEMPLATE_DIRS = [
+    os.path.join(BASE_DIR, 'templates'),
+]
+
+STATIC_ROOT = os.path.join(BASE_DIR, '../static')
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static', 'dirs'),
+)
+

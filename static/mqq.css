@@ -1,0 +1,492 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	background-color: white;
+	font-family: sans-serif;
+	font-size: 11pt;
+}
+
+p, ol, tr, td, dt, dd, ul {
+}
+
+th {
+}
+
+fieldset legend {
+	color: #8B0000;
+	font-weight: bold;
+	margin-left:15px;
+}
+
+fieldset {
+	border: 1px solid #8B0000;
+	margin-bottom: 10px;
+}
+
+h1 { 
+	font-family: sans-serif;
+	background-color: grey;
+	font-weight: normal;
+	font-size: 18pt;
+	font-style: bold;
+	color: white;
+}
+
+h2 { 
+	font-family: sans-serif;
+	color: darkblue;
+	font-size: 16pt;
+	font-style: bold;
+}
+
+h3 {
+	font-family: sans-serif;
+	color: grey;
+	font-size: 12pt;
+}
+
+h4 , h5 , h6 {
+	font-family: sans-serif;
+	color: black;
+}
+
+i, cite, em, var, address { 
+	font-style: italic 
+}
+
+pre, tt, code, kbd, samp {
+	font-family: monospace;
+	color: black;
+}
+
+li { display: marker; }
+
+li:before { display: marker }
+
+#se {
+  font-family: serif;
+}
+#sa {
+  font-family: Gill, Helvetica, sans-serif;
+}
+
+
+div#container {
+	width : 1248px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#container2 {
+	width : 1400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#authentification {
+	
+}
+
+div#version {
+	width : 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#version span.number{
+	font-weight: bold;
+}
+
+div.consigne {
+	border-top:2px solid black; 
+	border-bottom:2px solid black; 
+	padding-top:10px; 
+	padding-bottom:10px;
+}
+
+.consigne span.help {
+	font-style: italic;
+}
+
+div#help_link {
+	float: right;
+}
+
+div#authentification table {
+	width=50%;  
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.form_error {
+	text-align: center;
+	color: red;
+	width=50%; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#form_dt_context {
+	width: 100%;
+	margin-top: 15px;
+	border-collapse: collapse;
+}
+
+label.required {
+	font-weight: bold;
+}
+
+div#task_planning {
+	margin-top: 10px;
+	border-top: 2px solid black;
+}
+
+div#task_planning table#planning td {
+	text-align: center;
+}
+
+div#task_planning table#planning th {
+	width: 33%;
+}
+
+div#task_description {
+	margin-top: 10px;
+	border-top: 2px solid black;
+}
+
+div#task_watchers {
+	margin-top: 10px;
+	border-top: 2px solid black;
+}
+
+div#submit_part {
+	margin-top: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+div#submit_part div#form_submit {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+div#submit_part div#form_reset {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+div#flashmessenger {
+	margin-top: 10px;
+	border-top: 2px solid black;
+}
+
+div#flashmessenger li {
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+div#flashmessenger li.success {
+	color: green;
+}
+
+div#flashmessenger li.error {
+	color: red;
+}
+
+div#view div#content {
+	padding-top: 10px;
+	margin-top: 10px;
+	border-top: 2px solid black;
+}
+
+div#navigation {
+	margin-top: 10px;
+	border-top: 2px solid black;
+}
+
+div#navigation li {
+	
+}
+
+table td.empty {
+	height: 16px;
+}
+
+span.value {
+	color: blue;
+}
+
+span.news {
+	color: red;
+	font-weight: bold;
+}
+
+span.alert {
+	color: red;
+	font-weight: bold;
+}
+
+div#section_help_dt {
+}
+
+div#section_help_livraison {
+	padding-top: 10px;
+	margin-top: 10px;
+	border-top: 2px solid black;
+}
+
+div#livraison_informations {
+	margin-top: 10px;
+	border-top: 2px solid black;
+}
+
+div#validation_informations {
+	margin-top: 10px;
+	border-top: 2px solid black;
+}
+
+table td.delimiter {
+	height:10px; 
+	border-bottom: 1px solid black;
+	padding-bottom: 0px;
+}
+
+div#panSearchMade {
+	margin-bottom: 10px;
+	border-bottom: 2px solid black;
+}
+
+table#indexDt {
+	width: 100%;
+	border: 1px solid black;
+	font-size:10pt;
+	border-collapse: collapse;
+}
+
+table#indexDt th {
+	border: 1px solid black;
+	
+}
+
+table#indexDt td {
+	border: 1px solid black;
+	
+}
+
+table#indexDt td.date {
+	text-align: center;
+}
+
+table#indexDt td.produit {
+	width: 330px;
+}
+
+table#indexDt td.details {
+
+}
+
+table#indexDt td.action {
+	width: 100px;
+}
+
+
+table#indexLivraison {
+	width: 100%;
+	border: 1px solid black;
+	font-size:10pt;
+	border-collapse: collapse;
+}
+
+table#indexLivraison th {
+	border: 1px solid black;
+	
+}
+
+table#indexLivraison td {
+	border: 1px solid black;
+	
+}
+
+table#indexLivraison td.date {
+	width: 10%;
+	text-align: center;
+}
+
+table#indexLivraison td.produit {
+	width: 20%;
+}
+
+table#indexLivraison td.details {
+	width: 35%;
+}
+
+table#indexLivraison td.dt {
+	width: 25%;
+}
+
+table#indexLivraison td.action {
+	width: 10%;
+}
+
+span.nonbloquant {
+	color: green;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+span.bloquant {
+	color: red;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+#livraison_informations table#form_livraison_informations {
+	width: 100%;
+}
+
+#livraison_informations table#document {
+	width: 100%;
+}
+
+table#document td.header {
+	width: 200px;
+}
+
+table#document td.label {
+	width: 100px;
+}
+
+table#document td.value {
+	width: 898px;
+}
+
+table#indexPanSearch {
+	width: 100%;
+}
+
+div#planning #date_livraison {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+div#planning #date_qualification {
+	float: left;
+	width: 33%;
+	text-align: center;
+}
+
+div#planning #date_operationnel {
+	float: left;
+	width: 33%;
+	text-align: center; 
+}
+
+#navigation {
+	margin-bottom: 70px;
+}
+
+#navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation li {
+	float: left;
+}
+
+#navigation a.nav_link {
+	border: 1px solid grey;
+	background: #C0C0C0;
+	color: black;
+	font-size: 13pt;
+	text-decoration: none;
+	display: block;
+	width: 200px;
+	height : 50px;
+}
+
+#navigation a.nav_link:hover {
+	background: green;
+}
+
+div#nav {
+	margin-top: 10px;
+}
+
+#accueil #nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#accueil #nav li {
+	float: left;
+}
+
+#accueil #nav a.nav_link {
+	border: 2px solid grey;
+	background: #C0C0C0;
+	color: black;
+	font-size: 13pt;
+	text-decoration: none;
+	display: block;
+	width: 308px;
+	height: 240px;
+	text-align: center;
+}
+
+#accueil #nav a.nav_link img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#accueil #nav a.nav_link:hover {
+	background: green;
+}
+
+div#explanation div#indexDt {
+	display: none;
+}
+
+div#explanation div#addDt {
+	display: none;
+}
+
+div#explanation div#indexLivraison {
+	display: none;
+}
+
+div#explanation div#addLivraison {
+	display: none;
+}
+
+a img {
+	border-width: 0;
+}
+
+div.pagination {
+	margin-bottom: 10px;
+}
+
+div.pagination #header {
+	text-align: center;
+}
+
+div.pagination .link{
+	float: right;
+}
+
+td.details ul {
+	margin-top:0px;
+}
+

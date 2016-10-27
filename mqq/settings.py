@@ -112,3 +112,10 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10
 }
 
+#added from the excellent http://http://stackoverflow.com/questions/26871381/deploying-a-local-django-app-using-openshift
+STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'wsgi', 'static')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'wsgi', 'static', 'media')
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'yourjdproject', 'static'),)
+TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'yourjdproject', 'templates'),)
